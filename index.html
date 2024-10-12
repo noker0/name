@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div style="text-align: center;"> 
+        <p style="color: rgb(11, 71, 37);font-weight: bold;font-size: 40px;margin-top: 50px;">Hello, My name is treelee</p>
+        <p style="color: rgb(11, 71, 37);font-size: 20px;margin-top: 5px;">I help you with your problems. Just write me your problem and I will give you an answer</p>
+    </div>
+
+    <div style="display: flex;gap: 50px;margin-bottom: 40px;justify-content: center;margin-top: 40px;">
+        <div class="card">Ideas and solutions to many problems
+            <div class="arrow-btn"></div>
+        </div>
+        <div class="card">Assistance in personal and social problems and affairs
+            <div class="arrow-btn"></div>
+        </div>
+    </div>
+    <div style="display: flex;gap: 50px;margin-bottom: 40px;justify-content: center;margin-top: 40px;">
+        <div class="card">Conversation about personal and state problems
+            <div class="arrow-btn"></div>
+        </div>
+        <div class="card">Best answers to good questions from treelee users
+            <div class="arrow-btn"></div>
+        </div>
+    </div>
+
+    <div style="display: flex;justify-content: center;margin-bottom: 40px;">
+        <div style="width: 65%;height: 400px;background: rgb(201, 201, 201);border-radius: 15px;display: flex;align-items: center;">
+            <div style="display: flex;gap: 10px;margin-left: 30px;">
+                <div style="background-color: white;border-radius: 50%;width: 30px;height: 30px;"></div>
+                <p id="nero" style="border: none;width: 600px;height: 300px;border-radius: 15px;background: white;color: rgb(11, 71, 37);padding: 10px;"></p>
+            </div>
+        </div>
+    </div>
+
+    <div style="display: flex;justify-content: center;margin-bottom: 40px;">
+        <div style="width: 80%;background: white;border-radius: 25px;height: 40px;border: 2px solid rgb(11, 71, 37);display: flex;align-items: center;">
+            <img src="Без_названия__6_-removebg-preview (1).png" style="width: 3%;height: 70%;cursor: pointer;margin-left: 20px;" alt="">
+            <img src="Без_названия__5_-removebg-preview.png" style="width: 3%;height: 90%;margin-left: 10px;cursor: pointer;" alt="">
+            <img src="Без_названия__4_-removebg-preview (1).png" style="width: 2.5%;height: 85%;margin-left: 10px;cursor: pointer;" alt="">
+            <input id="inpu" type="text" style="height: 95%;border: none;margin-left: 2%;width: 75%;font-size: 17px;" placeholder="Введите ваш вопрос">
+            <div class="buto" onclick="start()" style="width: 3%;height: 90%;background: black;border-radius: 50%;display: flex;align-items: center;justify-content: center;margin-left: 5%;cursor: pointer;">
+                <div style="width: 40%;height: 40%;background: white;"></div>
+            </div>
+        </div>
+    </div>
+    <div class="" style="display: flex;justify-content: center;color: rgb(11, 71, 37);font-size: 30px;">
+        <p>Часто задаваемые вопросы...</p>
+    </div>
+
+    <div style="display: flex;margin-top: 20px;justify-content: center;" class="">
+        <p onclick="finish()" style="color: rgb(11, 71, 37);background:white;border-radius: 15px;border: 2px solid rgb(11, 71, 37);padding: 10px;width: 600px;text-align: center;cursor: pointer;">Как избавиться от мусора, не нанося вреда окружающей среде?</p>
+    </div>
+    <div style="display: flex;margin-top: 20px;justify-content: center;" class="">
+        <p onclick="finish1()" style="color: rgb(11, 71, 37);background:white;border-radius: 15px;border: 2px solid rgb(11, 71, 37);padding: 10px;width: 600px;text-align: center;cursor: pointer;">Где ближайшие ко мне контейнеры?</p>
+    </div>
+    <div style="display: flex;margin-top: 20px;justify-content: center;" class="">
+        <p style="color: rgb(11, 71, 37);background:white;border-radius: 15px;border: 2px solid rgb(11, 71, 37);padding: 10px;width: 600px;text-align: center;cursor: pointer;">Как можно помочь экологии?</p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
